@@ -18,11 +18,11 @@ function numeros() {
     var multiplicacao = numero1 * numero2;
 
     var mensagem =
-        "A diferença entre as duas variáveis é: " + diferenca + "<br>"+ "<br>" +
-        "O dobro da primeira mais o triplo da segunda é: " + resultado1 + "<br>" + "<br>"+
+        "A diferença entre as duas variáveis é: " + diferenca + "<br>" + "<br>" +
+        "O dobro da primeira mais o triplo da segunda é: " + resultado1 + "<br>" + "<br>" +
         "A multiplicação dos números resulta em: " + multiplicacao;
 
-        document.getElementById("resultado").innerHTML = mensagem; 
+    document.getElementById("resultado").innerHTML = mensagem;
 
     if (num1 > num2) {
         maiorParaMenor = "Número 1: " + numero1 + "<br>" + "Número 2: " + numero2;
@@ -30,7 +30,7 @@ function numeros() {
         maiorParaMenor = "Número 2: " + numero2 + "<br>" + "Número 1: " + numero1;
     }
 
-    mensagem +="<br><br>" + "Números do maior para o menor: " + "<br>" + maiorParaMenor;
+    mensagem += "<br><br>" + "Números do maior para o menor: " + "<br>" + maiorParaMenor;
 
     document.getElementById("resultado").innerHTML = mensagem;
 }

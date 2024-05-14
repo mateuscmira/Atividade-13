@@ -1,7 +1,23 @@
-body{
+body {
     font-family: Cambria;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+}
 
+.geral {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.container {
+    flex: 1;
+    text-align: center;
+}
+
+.container2 {
+    flex: 1;
+    text-align: center;
+}
+
+.container3{
+    flex: 1;
+    text-align: center;
 }

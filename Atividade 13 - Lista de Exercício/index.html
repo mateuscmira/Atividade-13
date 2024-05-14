@@ -5,18 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
     <title>Valores</title>
 </head>
 
 <body>
-    <div class="container">
-        <h2>Números</h2>
-        <label for="num1">Digite o valor da primeira variável:</label><br>
-        <input type="number" id="num1"><br><br>
-        <label for="num2">Digite o valor da segunda variável:</label><br>
-        <input type="number" id="num2"><br><br>
-        <button onclick="numeros()">Calcular os números</button><br><br>
-        <div id="resultado"></div>
+    <div class="geral">
+        <div class="container">
+            <h2>Números</h2>
+            <label for="num1">Digite o valor da primeira variável:</label><br>
+            <input type="number" id="num1"><br><br>
+            <label for="num2">Digite o valor da segunda variável:</label><br>
+            <input type="number" id="num2"><br><br>
+            <button onclick="numeros()">Calcular os números</button><br><br>
+            <div id="resultado"></div>
+        </div>
+
+        <div class="container2">
+            <h2>Salário</h2>
+            <label for="nome">Digite seu nome:</label><br>
+            <input type="text" id="nome"><br><br>
+            <label for="bruto">Digite o salário bruto:</label><br>
+            <input type="number" id="bruto"><br><br>
+            <button onclick="salario()">Calcular o salário líquido</button>
+            <div id="resultadoSalario"></div>
+        </div>
+        
+        <div class="container3">
+            <h2>Desconto</h2>
+            <label for="nome2">Digite seu nome:</label><br>
+            <input type="text" id="nome2"><br><br>
+            <label for="bruto2">Digite o salário bruto:</label><br>
+            <input type="number" id="bruto2"><br><br>
+            <button onclick="desconto()">Calcular o desconto e o salário</button>
+            <div id="resultadoDescontos"></div>
+        </div>
     </div>
 </body>
 
